@@ -5,12 +5,19 @@
             "@language": "en"
         }
     ],
-    "dc:bibliographicCitation": "LAPSyD Team (2020)",
+    "dc:bibliographicCitation": "Michael, Lev, Tammy Stark, Emily Clem, and Will Chang (compilers). 2015. South American Phonological Inventory Database v1.1.5. Survey of California and Other Indian Languages Digital Resource. Berkeley: University of California.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
-    "dc:identifier": "http://www.lapsyd.ddl.cnrs.fr/",
+    "dc:identifier": "http://linguistics.berkeley.edu/~saphon/en/",
     "dc:source": "sources.bib",
-    "dc:title": "Inventories from the Lyon-Albuquerque Phonological Systems Database (LAPSyD)",
+    "dc:title": "South American Phonological Inventory Database",
+    "dcat:accessURL": "https://github.com/cldf-datasets/saphon",
     "prov:wasDerivedFrom": [
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/cldf-datasets/saphon",
+            "dc:created": "250c269"
+        },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
@@ -49,18 +56,21 @@
                         "name": "ID"
                     },
                     {
+                        "dc:extent": "singlevalued",
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
                         "required": true,
                         "name": "Language_ID"
                     },
                     {
+                        "dc:extent": "singlevalued",
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
                         "required": true,
                         "name": "Parameter_ID"
                     },
                     {
+                        "dc:extent": "singlevalued",
                         "datatype": "string",
                         "null": [
                             "?",
@@ -71,6 +81,7 @@
                         "name": "Value"
                     },
                     {
+                        "dc:extent": "singlevalued",
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#codeReference",
                         "required": false,
@@ -149,6 +160,15 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
                         "required": false,
                         "name": "Description"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-z_-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cltsReference",
+                        "valueUrl": "https://clts.clld.org/parameters/{CLTS_ID}",
+                        "name": "CLTS_ID"
                     },
                     {
                         "datatype": "string",

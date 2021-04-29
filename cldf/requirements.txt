@@ -24,7 +24,7 @@ pluggy==0.13.1
 purl==1.5
 py==1.10.0
 pybtex==0.24.0
-pycldf==1.18.1
+-e git+https://github.com/cldf/pycldf.git@abef92f3ca543231ece1abbe38cc69628575b18d#egg=pycldf
 pyclts==3.0.2
 pyconcepticon==2.7.0
 pycountry==20.7.3
