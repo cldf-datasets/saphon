@@ -201,7 +201,7 @@ class Dataset(BaseDataset):
                 "ID": ID, 
                 "Name": normalized,
                 "Description": '',
-                "CLTS_ID": desc.replace('_', ' ') if desc.strip() else "NA",
+                "CLTS_ID": desc.replace(' ', '_') if desc.strip() else "NA",
                 "CLTS_BIPA": bipa_grapheme,
                 "CLTS_Name": desc}
             for ID, normalized, bipa_grapheme, desc in set(segments)
