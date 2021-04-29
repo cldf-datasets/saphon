@@ -164,7 +164,7 @@
                     {
                         "datatype": {
                             "base": "string",
-                            "format": "[a-z_-]+"
+                            "format": "[a-z_-]+|NA"
                         },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cltsReference",
                         "valueUrl": "https://clts.clld.org/parameters/{CLTS_ID}",
