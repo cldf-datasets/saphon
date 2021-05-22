@@ -12,7 +12,7 @@ from cldfbench.datadir import get_url
 
 from pyglottolog import Glottolog
 from pyclts import CLTS, models
-from pycldf import Sources
+from pycldf.sources import Sources
 from pycldf.terms import Terms
 
 from cldfcatalog.config import Config
@@ -121,39 +121,41 @@ class Dataset(BaseDataset):
         args.writer.cldf.add_columns(
             "ValueTable",
             {"name": "Value_in_Source", "datatype": "string"})
-
+        
+        cltstable = Terms()["cltsReference"].to_column().asdict()
+        cltstable["datatype"]["format"] = "[a-z_-]+|NA"
         args.writer.cldf.add_columns(
                     'ParameterTable',
-                    Terms()["cltsReference"].to_column().asdict(),
+                    cltstable,
                     {'name': 'CLTS_BIPA', 'datatype': 'string'},
                     {'name': 'CLTS_Name', 'datatype': 'string'})
         args.writer.cldf.add_component(
             "LanguageTable", "Family", "Glottolog_Name")
 
         languages = []
-        all_glottolog = {lng.id: lng for lng in glottolog.languoids()}
-        iso2glot = {lng.iso: lng.glottocode for lng in all_glottolog.values()}
-        args.log.info("loaded glottolog")
+        #all_glottolog = {lng.id: lng for lng in glottolog.languoids()}
+        #iso2glot = {lng.iso: lng.glottocode for lng in all_glottolog.values()}
+        #args.log.info("loaded glottolog")
         for row in progressbar(
-                self.etc_dir.read_csv("languages.tsv", delimiter="\t", dicts=True)):
-            if row["SAPHON_Code"] in iso2glot:
-                glottocode = iso2glot[row["SAPHON_Code"]]
-            elif row["SAPHON_Code"][:3] in iso2glot:
-                glottocode = iso2glot[row["SAPHON_Code"][:3]]
-            else:
-                glottocode = ""
+                self.etc_dir.read_csv("languages.csv", dicts=True)):
+            #if row["SAPHON_Code"] in iso2glot:
+            #    glottocode = iso2glot[row["SAPHON_Code"]]
+            #elif row["SAPHON_Code"][:3] in iso2glot:
+            #    glottocode = iso2glot[row["SAPHON_Code"][:3]]
+            #else:
+            #    glottocode = ""
 
-            if glottocode and glottocode in all_glottolog:
-                lang = all_glottolog[glottocode]
-                update = {
-                    "Family": lang.family.name if lang.family else '',
-                    "Glottocode": glottocode,
-                    "Latitude": lang.latitude,
-                    "Longitude": lang.longitude,
-                    "Macroarea": lang.macroareas[0].name if lang.macroareas else None,
-                    "Glottolog_Name": lang.name,
-                }
-                row.update(update)
+            #if glottocode and glottocode in all_glottolog:
+            #    lang = all_glottolog[glottocode]
+            #    update = {
+            #        "Family": lang.family.name if lang.family else '',
+            #        "Glottocode": glottocode,
+            #        "Latitude": lang.latitude,
+            #        "Longitude": lang.longitude,
+            #        "Macroarea": lang.macroareas[0].name if lang.macroareas else None,
+            #        "Glottolog_Name": lang.name,
+            #    }
+            #    row.update(update)
             languages.append(row)
 
         # Build source map from language

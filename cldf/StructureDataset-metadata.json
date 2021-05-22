@@ -16,7 +16,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/saphon",
-            "dc:created": "bfa132a"
+            "dc:created": "a83abbf"
         },
         {
             "rdf:type": "prov:Entity",
@@ -28,7 +28,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.9.2"
+            "dc:description": "3.9.4"
         },
         {
             "dc:title": "python-packages",
@@ -164,7 +164,7 @@
                     {
                         "datatype": {
                             "base": "string",
-                            "format": "[a-z_-]+"
+                            "format": "[a-z_-]+|NA"
                         },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cltsReference",
                         "valueUrl": "https://clts.clld.org/parameters/{CLTS_ID}",
@@ -214,8 +214,8 @@
                     {
                         "datatype": {
                             "base": "decimal",
-                            "minimum": -90,
-                            "maximum": 90
+                            "minimum": "-90",
+                            "maximum": "90"
                         },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#latitude",
                         "required": false,
@@ -224,8 +224,8 @@
                     {
                         "datatype": {
                             "base": "decimal",
-                            "minimum": -180,
-                            "maximum": 180
+                            "minimum": "-180",
+                            "maximum": "180"
                         },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#longitude",
                         "required": false,
