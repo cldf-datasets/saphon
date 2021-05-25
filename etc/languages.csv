@@ -22,7 +22,7 @@ Apinaye,Apinayé,South America,-6.10774,-47.6315,apin1244,,Nuclear-Macro-Je,Apin
 Apurina,Apurinã,South America,-8.21692,-66.7714,apur1254,,Arawakan,Apurinã
 Arabela,Arabela,South America,-1.96126,-75.0612,arab1268,,Zaparoan,Arabela
 Araona,Araona,South America,-12.4242,-67.7293,arao1248,,Pano-Tacanan,Araona
-Shawa,Arara do Acre,,,,,,Panoan,
+Shawa,Arara do Acre,South America,,,,,Pano-Tacanan,
 AraraMG,Arára do Mato Grosso,South America,-9.172609,-60.628867,mato1253,,,Mato Grosso Arára
 AraraPara,"Arára, Pará",South America,-3.71263,-53.0657,para1310,,Cariban,Pará Arára
 Arawete,Araweté,South America,-4.90246,-52.5001,araw1273,,Tupian,Araweté
@@ -75,7 +75,7 @@ ChachapoyasQ,Chachapoyas Quechua,South America,-6.27021,-77.6615,chac1250,,Quech
 Chacobo,Chácobo,South America,-12.133,-66.7164,chac1251,,Pano-Tacanan,Chácobo
 Chamacoco,Chamacoco,South America,-20.5899,-58.2005,cham1315,,Zamucoan,Chamacoco
 Chamicuro,Chamicuro,South America,-5.1149,-75.6778,cham1318,,Arawakan,Chamicuro
-Chana,Chaná,,,,,,Charruan,
+Chana,Chaná,South America,,,chan1296,,Charruan,Chaná
 Chimila,Chimila,South America,10.1902,-74.2559,chim1309,,Chibchan,Chimila
 Chipaya,Chipaya,South America,-18.73951,-67.89633,chip1262,,Uru-Chipaya,Chipaya
 ChiriguanoC,Chiriguano (Chané dialect),South America,-20.42,-63.37,east2555,,Tupian,Eastern Bolivian Guaraní
@@ -109,7 +109,7 @@ Guambiano,Guambiano,South America,2.55849,-76.582,guam1248,,Barbacoan,Guambiano
 Guarayu,Guarayu,South America,-15.8247,-61.6934,guar1292,,Tupian,Guarayu
 Guato,Guató,South America,-17.8696,-57.2897,guat1253,,,Guató
 Guayabero,Guayabero,South America,2.8969,-71.844,guay1257,,Guahiboan,Guayabero
-GununYajich,Günün Yajich,,,,,,Isolate,
+GununYajich,Günün Yajich,South America,,,,,Isolate,
 Hixkaryana,Hixkaryána,South America,-0.16265,-58.80153,hixk1239,,Cariban,Hixkaryána
 Hoti,Hoti,South America,5.63879,-65.4267,yuwa1244,,Jodi-Saliban,Hoti
 HuallagaHQ,Huallaga Huánuco Quechua,South America,-9.57135,-75.594,hual1241,,Quechuan,Huallaga Huánuco Quechua
@@ -174,7 +174,7 @@ Kwaza,Kwaza,South America,-11.6667,-61.1833,kwaz1243,,,Kwaza
 Latunde,Latunde,South America,-12.608792,-60.422423,latu1238,,Nambiquaran,Latundê
 Leco,Leco,South America,-15.0092,-67.8818,leco1242,,,Leco
 Lokono,Lokono,South America,5.64295,-56.9243,araw1276,,Arawakan,Lokono
-Lule,Lule,Africa,4.6242,31.9103,olub1238,,Central Sudanic,Olu'bo
+Lule,Lule,South America,,,lule1238,,Isolate,Lule
 Macaguan,Macaguán,South America,6.34582,-71.2671,maca1259,,Guahiboan,Macaguán
 Macuna,Macuna,South America,-0.14459,-70.0749,macu1260,,Tucanoan,Macuna
 Macushi,Macushi,South America,4.31861,-60.2209,macu1259,,Cariban,Macushi
@@ -235,7 +235,7 @@ GuaraniP,Paraguayan Guaraní,South America,-25.60551,-57.08816,para1311,,Tupian,
 Parakana,Parakanã,South America,-4.64681,-50.0621,para1312,,Tupian,Parakanã
 Paraujano,Paraujano,South America,10.8427,-71.8399,para1316,,Arawakan,Paraujano
 Parecis,Paresí,South America,-14.5929,-57.4059,pare1272,,Arawakan,Parecís
-Parkateje,Parkateje,,,,,,Macro-Ge,
+Parkateje,Parkateje,South America,,,timb1254,,Nuclear-Macro-Je,Parkatejê
 Paumari,Paumarí,South America,-5.78403,-64.2803,paum1247,,Arawan,Paumari
 PemonA,Pemon (Arekuna dialect),South America,4.97031,-61.4033,pemo1248,,Cariban,Pemon
 PemonT,Pemon (Tarepang dialect),South America,4.97031,-61.4033,pemo1248,,Cariban,Pemon
@@ -245,7 +245,7 @@ Piaroa,Piaroa,South America,4.41805,-67.7574,piar1243,,Jodi-Saliban,Piaroa
 Pilaga,Pilagá,South America,-25.0058,-60.1537,pila1245,,Guaicuruan,Pilagá
 Piraha,Pirahã,South America,-6.77713,-61.8167,pira1253,,,Pirahã
 Piratapuyo,Piratapuyo,South America,0.50714,-69.5032,pira1254,,Tucanoan,Wa'ikhana
-Pisamira,Pisamira,,,,,,Tucanoan,
+Pisamira,Pisamira,South America,,,pisa1245,,Tucanoan,Pisamira
 Poyanawa,Poyanáwa,South America,-7.46909,-73.0758,poya1241,,Pano-Tacanan,Poyanáwa
 Puinave,Puinave,South America,3.92974,-67.6886,puin1248,,,Puinave
 Pume,Pumé,South America,7.10677,-67.5996,pume1238,,,Pumé
@@ -263,11 +263,11 @@ SantiagoEQ,Santiago del Estero Quechua,South America,-27.821,-63.2466,sant1432,,
 Sanuma,Sanumá,South America,4.5,-64.5,sanu1240,,Yanomamic,Sanumá
 Sapara,Sápara,South America,-1.99871,-76.364,zapa1253,,Zaparoan,Záparo
 SatereMawe,Sateré-Mawé,South America,-3.63897,-56.8749,sate1243,,Tupian,Sateré-Mawé
-Saynawa,Saynawa,Papunesia,-0.38398,114.693,sian1254,,Austronesian,Siang
+Saynawa,Saynawa,South America,,,,,Pano-Tacanan,
 SecoyaA,Secoya del Aguarico,South America,-0.459785,-75.5547,seco1241,,Tucanoan,Secoya
 SecoyaP,Secoya del Putumayo,South America,-0.459785,-75.5547,seco1241,,Tucanoan,Secoya
 Selknam,Selk'nam,South America,-54.0,-68.5,onaa1245,,Chonan,Selk'nam
-Shanenawa,Shanenawa,Africa,9.87556,9.64988,shal1242,,Atlantic-Congo,Shall-Zwall
+Shanenawa,Shanenawa,South America,,,shan1283,,Pano-Tacanan,Shanenawa
 Sharanahua,Sharanawa,South America,-9.8626,-71.1232,shar1245,,Pano-Tacanan,Sharanahua
 Shawi,Shawi,South America,-5.63764,-76.8252,chay1248,,Cahuapanan,Shawi
 Shipibo,Shipibo,South America,-7.17105,-74.8219,ship1254,,Pano-Tacanan,Shipibo-Conibo
@@ -347,7 +347,7 @@ Yanomami,Yanomámi,South America,2.48999,-62.8522,yano1262,,Yanomamic,Yanomám
 YanomamiP,Yanomamɨ of Parawau,South America,1.67967,-64.8781,yano1261,,Yanomamic,Yanomamö
 YanomamiV,Yanomamɨ of Venezuela,South America,1.67967,-64.8781,yano1261,,Yanomamic,Yanomamö
 Yanomamo,Yanomamö,South America,1.67967,-64.8781,yano1261,,Yanomamic,Yanomamö
-YaroameS,Yãroamë of Serra do Pacu/Ajarani,Australia,,,dang1262,,Pama-Nyungan,Dangedl
+YaroameS,Yãroamë of Serra do Pacu/Ajarani,South America,,,yaro1235,,Yanomamic,Yaroame
 Yavitero,Yavitero,South America,2.924844,-67.438886,yavi1244,,Arawakan,Yavitero-Pareni
 Yawalapiti,Yawalapití,South America,-12.5104,-53.4236,yawa1261,,Arawakan,Yawalapití
 Yawanawa,Yawanawa,South America,-8.87563,-71.8199,yawa1260,,Pano-Tacanan,Yawanawa
