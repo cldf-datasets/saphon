@@ -13,22 +13,22 @@
     "dcat:accessURL": "https://github.com/cldf-datasets/saphon",
     "prov:wasDerivedFrom": [
         {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/saphon",
-            "dc:created": "addcd9c"
+            "rdf:type": "prov:Entity",
+            "dc:created": "6260041",
+            "dc:title": "Repository"
         },
         {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.3"
+            "rdf:type": "prov:Entity",
+            "dc:created": "v4.4",
+            "dc:title": "Glottolog"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.9.4"
+            "dc:description": "3.9.5"
         },
         {
             "dc:title": "python-packages",
